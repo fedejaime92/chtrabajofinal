@@ -1,0 +1,50 @@
+.students-form {
+    // padding-top: 3%;
+    margin-top: 4.063em;
+    .form-header-container {
+        background-color: $colorPrimarioLight;
+    }
+    h1 {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        @extend %encabezados;
+        text-align: center;
+    }
+
+    .students-formu {
+        padding-top: 4%;
+    }
+        .form-contact{
+            margin: auto;
+            height: 40.625em;
+            background-color: $colorBlanco;
+            border-radius: 1.5em;
+            box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+        }
+            form {
+                padding-top: 3%;
+            }
+                .send {
+                    cursor: pointer;
+                    border-radius: 5em;
+                    color: $colorOscuro;
+                    background: linear-gradient(to right, $colorPrimario, $colorPrimarioLight);
+                    border: 0;
+                    padding-left: 40px;
+                    padding-right: 40px;
+                    padding-bottom: 10px;
+                    padding-top: 10px;
+                    font-family: 'Source Sans Pro', sans-serif;
+                    font-weight: 700;
+                    margin-left: 35%;
+                    font-size: 13px;
+                    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+
+                    &:hover {
+                        background: linear-gradient(to right, $colorSecundario, $colorSecundarioLight);
+                        text-decoration: none;
+                        font-weight: 900;
+                        color: #FFFFFF;
+                    }
+                }
+}

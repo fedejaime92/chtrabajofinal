@@ -1,0 +1,36 @@
+//ESTILOS HEADER
+header {
+    position: fixed;
+    z-index: 5;
+    background-color: $colorBlanco;
+    top: 0;
+    //ESTILOS NAV BAR
+        .navbar {
+            background-color: $colorBlanco;
+            border-bottom: $colorPrimario solid;
+            width: 100vw;
+            height: 4.063em;
+            .navbar-collapse
+                .navbar-nav
+                    .nav-item
+                        a
+                            img {
+                                width: 10%;
+                                padding-left: 5%;
+                            }
+        }
+        .navbar-light .navbar-nav .active>.nav-link {
+            font-family: $bodyFont;
+            font-weight: 700;
+            color: $colorSecundario;
+            &:hover {
+                background-color: $colorTerciario;
+                color: $colorBlanco;
+                border-radius: 1.25em;
+            }
+        }
+        .dropdown-menu {
+            background-color: $colorSecundarioLight;
+        }
+}
+

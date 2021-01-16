@@ -1,0 +1,95 @@
+%estilosContenedor {
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+%titles {
+    font-family: $titlesFont;
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: 0.5em;
+    background: linear-gradient(90deg, $colorSecundario, $colorTerciario);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    &:hover {
+        background: linear-gradient(90deg, $colorPrimario, $colorPrimarioLight);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+}
+
+%subtitles {
+    font-family: $titlesFont;
+    font-size: 2em;
+    text-align: center;
+}
+
+%paragraphs {
+    font-family: $bodyFont;
+    color: $colorOscuro;
+    font-size: 1em;
+}
+
+%sombraCajas {
+-webkit-box-shadow: 10px -10px 9px -2px rgba(127,187,240,0.8);
+-moz-box-shadow: 10px -10px 9px -2px rgba(127,187,240,0.8);
+box-shadow: 10px -10px 9px -2px rgba(127,187,240,0.8);
+}
+
+%pFooter {
+    font-family: $bodyFont;
+    font-weight: 700;
+    color: $colorOscuro;
+    text-align: center;
+    padding-top: 5%;
+}
+
+%iFooter {
+        font-size: 3em;
+        padding-top: 8%;
+        padding-bottom: 0;
+        color: $colorBlanco;
+        text-align: center;
+        width: 100%;
+}
+
+%img-equipo {
+    width: 60%;
+    display: block;
+    margin: auto;
+    padding-top: 4%;
+}
+
+%text-title-equipo {
+    color: $colorPrimario;
+    text-align: center;
+    padding-top: 5%;
+    font-family: $titlesFont;
+}
+
+%encabezados {
+    color: $colorSecundario;
+    font-family: $titlesFont;
+    font-weight: 900;
+}
+
+
+%botones {
+    color: $colorBlanco;
+    background: $colorPrimario;
+    border-radius: 10px;
+    font-family: $bodyFont;
+    font-weight: 700;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    &:hover {
+        background: $colorSecundario;
+    }
+    a {
+        color: $colorBlanco;
+        text-decoration: none;
+    }
+
+}

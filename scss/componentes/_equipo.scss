@@ -1,0 +1,93 @@
+#encabezado-team {
+    margin-top: 4.063em;
+}
+
+.container-encabezado {
+    background-color: $fondoSeccion;
+    width: 100%;
+    h1 {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        @extend %titles;
+        text-transform: uppercase;
+    }
+}
+
+section
+    .container
+        h2 {
+            font-family: $titlesFont;
+            text-align: center;
+            color: $colorSecundario;
+            padding-top: 5%;
+        }
+
+        .row
+            .card-team
+                .card-photo-team
+                    img {
+                        @extend %img-equipo;
+
+                        &:hover {
+                            opacity: 70%;
+                        }
+
+
+                    }
+
+                .card-text-team
+                    h3 {
+                        @extend %text-title-equipo;
+                    }
+
+                    p {
+                        font-family: $bodyFont;
+                        text-align: center;
+                    }
+
+// ESTILOS CARDS
+
+.materias {
+    margin-top: 2%;
+    margin-bottom: 2% ;
+    
+    .container {
+        h2 {
+            font-family: $titlesFont;
+            text-align: center;
+            color: $colorSecundario;
+            padding-top: 1%;
+        }
+    }
+    .teachersContainerFlex {
+        padding-top: 5%;
+        display: flex;
+        justify-content: space-around;
+        .subjectsFlex{
+            border: $colorTerciario solid;
+            border-radius: 60px;
+            width: 15%;
+            i {
+                color: $colorPrimario;
+                font-size: 3em;
+                width: 100%;
+                text-align: center;
+                padding-top: 5%;
+                padding-bottom: 5%;
+            }
+            h4 {
+                text-align: center;
+                font-family: $bodyFont;
+                font-weight: 700;
+                color: $colorSecundario;
+            }
+            p {
+                font-family: $bodyFont;
+                color: $colorOscuro;
+                text-align: center;
+            }
+        }
+    }
+
+}
+        

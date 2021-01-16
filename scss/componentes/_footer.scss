@@ -1,0 +1,47 @@
+@import '../extensiones/animaciones';
+
+footer {
+    animation-name: fondoColores;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    height: auto;
+    margin-top: 20%;
+   
+    .footerContent {
+        display: flex;
+        .footerIdentity1 {
+            img {
+                width: 20%;
+                display: block;
+                margin: auto;
+                padding-top: 5%;
+            }
+            p {
+                @extend %pFooter;
+            }
+        }
+        .footerIdentity2, .footerIdentity3, .footerIdentity4 {
+            i {
+                @extend %iFooter;
+            }
+            p {
+                @extend %pFooter;
+            }
+        }
+
+
+    }
+    .footerAuthor {
+        background-color: $colorOscuro;
+        height: auto;
+        p {
+            font-family: $bodyFont;
+            font-weight: 400;
+            font-size: 0.8em;
+            color: $colorBlanco;
+            text-align: center;
+            padding-top: 1%;
+        }
+    }
+}

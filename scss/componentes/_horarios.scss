@@ -1,0 +1,26 @@
+#encabezadoHorarios {
+    margin-top: 4.063em;
+    
+    }
+    .container-encabezado {
+        background-color: $colorPrimarioLight;        
+        h1 {
+            padding-top: 2%;
+            padding-bottom: 2%;
+            @extend %encabezados;
+            
+        }
+    }
+
+#horarios-informacion
+    .container-fluid {
+        padding-top: 2%;
+        margin-bottom: 5%;
+    }
+    button {
+        @extend %botones;
+        display: block;
+        margin: auto;
+        margin-top: 1%;
+    }
+

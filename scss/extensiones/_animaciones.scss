@@ -1,0 +1,33 @@
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fondoColores {
+    0% {
+        background: $colorPrimario;
+    }
+
+    25% {
+        background: $colorPrimarioLight;
+    }
+
+    50% {
+        background: $colorSecundarioLight;
+    }
+
+    75% {
+        background: $colorTerciario;
+    }
+
+    100% {
+        background: $colorSecundarioLight;
+    }
+
+
+
+}

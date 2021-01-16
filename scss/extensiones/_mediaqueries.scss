@@ -1,0 +1,768 @@
+// NAV BAR
+@media screen and 
+(min-width: 320px)
+and (max-width: 480px) {
+    header .navbar .navbar-collapse .navbar-nav .nav-item a img {
+        display: none;
+    }
+}
+
+@media screen and 
+(min-width: 481px)
+and (max-width: 768px) {
+    header .navbar .navbar-collapse .navbar-nav .nav-item a img {
+        display: none;
+    }
+}
+
+@media screen and 
+(min-width: 769px)
+and (max-width: 1024px) {
+    header .navbar .navbar-collapse .navbar-nav .nav-item a img {
+        display: none;
+    }
+}
+
+// HERO
+@media screen and 
+(min-width: 320px)
+and (max-width: 480px) {
+    #hero
+        .elementContainerHero
+            .heroText {
+                margin: 50% 0;
+                .heroTexto {
+                    img {
+                        width: 50%;
+                    }
+                    p {
+                        font-size: 1em;
+                       }
+                    h1 {
+                        font-size: 2em;
+                       }
+                }
+            }
+}
+
+@media screen and 
+(min-width: 481px)
+and (max-width: 768px) {
+    #hero
+        .elementContainerHero
+            .heroText {
+                margin: 20% 0;
+                .heroTexto {
+                    img {
+                        width: 30%;
+                    }
+                    p {
+                        font-size: 1em;
+                       }
+                    h1 {
+                        font-size: 2.625em;
+                       }
+                }
+            }
+}
+
+// NOSOTROS-mensaje de la directora
+
+@media screen and 
+(min-width: 320px)
+and (max-width: 480px) {
+    #nosotros {
+        .section-titles {
+            h2 {
+                font-size: 2em;
+            }
+        }
+        .principal-message {
+            margin-top: 4%;
+            height: auto;
+            border-radius: 0;
+            /* max-height: 650px; */
+            .principal-message-row {
+                .principal-message-left {
+                    display: none;
+                }
+                .col-md-8 {
+                  .principal-message-text {
+                      h3 {
+                        padding-top: 10%;
+                      }
+                      p {
+                        padding-top: 8%;
+                      }
+                  }
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and
+(min-width: 481px)
+and (max-width: 768px) {
+    #nosotros {
+        .section-titles {
+            h2 {
+                font-size: 2em;
+            }
+        }
+        .principal-message {
+            margin-top: 4%;
+            height: auto;
+            border-radius: 0;
+            /* max-height: 650px; */
+            .principal-message-row {
+                .principal-message-left {
+                    display: none;
+                }
+                .col-md-8 {
+                  .principal-message-text {
+                      h3 {
+                        padding-top: 10%;
+                      }
+                      p {
+                        padding-top: 8%;
+                      }
+                  }
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and
+(min-width: 769px)
+and (max-width: 1024px) {
+    #nosotros {
+        .section-titles {
+            h2 {
+                font-size: 2em;
+            }
+        }
+        .principal-message {
+            margin-top: 4%;
+            height: auto;
+            border-radius: 20px;
+            /* max-height: 650px; */
+            .principal-message-row {
+                .principal-message-left {
+                    .img-bkg {
+                        width: 30vh;
+                    }
+                    .img-directora {
+                        width: 28vh;
+                    }
+                }
+                .col-md-8 {
+                  .principal-message-text {
+                      h3 {
+                        padding-top: 10%;
+                      }
+                      p {
+                        padding-top: 8%;
+                      }
+                  }
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and
+(min-width: 1025px)
+and (max-width: 1200px) {
+    #nosotros {
+        .section-titles {
+            h2 {
+                font-size: 3em;
+            }
+        }
+        .principal-message {
+            margin-top: 4%;
+            height: auto;
+            border-radius: 20px;
+            /* max-height: 650px; */
+            .principal-message-row {
+                .principal-message-left {
+                    .img-bkg {
+                        width: 40vh;
+                    }
+                    .img-directora {
+                        width: 38vh;
+                    }
+                }
+                .col-md-8 {
+                  .principal-message-text {
+                      h3 {
+                        padding-top: 10%;
+                      }
+                      p {
+                        padding-top: 8%;
+                      }
+                  }
+                }
+            }
+        }
+
+    }
+}
+
+
+// NOSOTROS-CARDS-Y-TEAM-DIVIDER
+@media screen and 
+(min-width: 320px)
+and (max-width: 480px) {
+    #nosotros {
+            .nosotrosCards {
+                display: flex;
+                flex-direction: column;
+                .card {
+                    background: #91BBDE;
+                    width: 95%;
+                    max-height: 60%;
+                    flex: 0 20 20em;
+                    margin-top: 1.25em;
+                    margin-left: auto;
+                    margin-right: auto;
+                    border-radius: 5%;
+                    &:hover {
+                        transform: none;
+                    }
+                    .nosotros-card-text {
+                        h3 {
+                            text-align: center;
+                            color: #ffffff; 
+                        }
+                    }
+            
+                }
+            }
+            
+        .nosotros-team {
+            margin-top: 10%;
+            height: 50%;
+            max-height: 55vh;
+            border-radius: 0%;
+            width: 90%;
+        }
+    }
+}
+
+@media screen and 
+(min-width: 481px)
+and (max-width: 768px) {
+    #nosotros {
+            .nosotrosCards {
+                display: flex;
+                flex-direction: column;
+                .card {
+                    background: #91BBDE;
+                    width: 95%;
+                    max-height: 60%;
+                    flex: 0 20 20em;
+                    margin-top: 1.25em;
+                    margin-left: auto;
+                    margin-right: auto;
+                    border-radius: 5%;
+                    &:hover {
+                        transform: none;
+                    }
+                    .nosotros-card-text {
+                        h3 {
+                            text-align: center;
+                            color: #ffffff; 
+                        }
+                    }
+            
+                }
+            }
+            
+        .nosotros-team {
+            margin-top: 10%;
+            height: auto;
+            border-radius: 60px;
+            width: 90%;
+        }
+    }
+}
+
+@media screen and 
+(min-width: 769px)
+and (max-width: 1024px) {
+    #nosotros {
+            .nosotrosCards {
+                display: flex;
+                flex-direction: column;
+                .card {
+                    background: #91BBDE;
+                    width: 95%;
+                    max-height: 60%;
+                    flex: 0 20 20em;
+                    margin-top: 1.25em;
+                    margin-left: auto;
+                    margin-right: auto;
+                    border-radius: 5%;
+                    &:hover {
+                        transform: none;
+                    }
+                    .nosotros-card-text {
+                        h3 {
+                            text-align: center;
+                            color: #ffffff; 
+                        }
+                    }
+            
+                }
+            }
+            
+        .nosotros-team {
+            margin-top: 10%;
+            height: auto;
+            border-radius: 60px;
+            width: 90%;
+        }
+    }
+}
+
+// ALUMNOS
+
+@media screen and 
+(min-width: 320px)
+and (max-width: 480px) {
+    #alumnos {
+        width: 95%;
+        height: 110vh;
+        .section-titles {
+            h2 {
+                font-size: 2em;
+            }
+         }
+         .sectionContent {
+            .boxContent {
+                width: 90%;
+                margin-left: 0;
+                background-color: transparent;
+            .textAndButtons {
+                .flex-container {
+                    flex-direction: column;
+                    width: 90%;
+                    .mini-card {
+                        width: 90%;
+                        max-height: 30%;
+                        flex: 0 5 5em;
+                        margin-top: 1.25em;
+                        border-radius: 5%;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
+                p {
+                    font-size: 0.9em;
+                }   
+            }
+            
+            }
+        .studentsIMG {
+            display: none;
+            }
+        }
+    }
+}
+
+@media screen and 
+(min-width: 481px)
+and (max-width: 768px) {
+    #alumnos {
+        width: 95%;
+        height: 110vh;
+        .section-titles {
+            h2 {
+                font-size: 2em;
+            }
+         }
+         .sectionContent {
+            .boxContent {
+                width: 90%;
+                margin-left: 0;
+                background-color: transparent;
+            .textAndButtons {
+                .flex-container {
+                    flex-direction: column;
+                    width: 90%;
+                    .mini-card {
+                        width: 60%;
+                        max-height: 30%;
+                        flex: 0 5 5em;
+                        margin-top: 2%;
+                        border-radius: 5%;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
+                p {
+                    font-size: 1em;
+                }   
+            }
+            
+            }
+        .studentsIMG {
+            display: none;
+            }
+        }
+    }
+}
+
+@media screen and 
+(min-width: 769px)
+and (max-width: 1024px) {
+    #alumnos {
+        width: 95%;
+        height: 120vh;
+        .section-titles {
+            h2 {
+                font-size: 2em;
+            }
+         }
+         .sectionContent {
+            .boxContent {
+                width: 90%;
+                margin-left: 0;
+                background-color: transparent;
+            .textAndButtons {
+                .flex-container {
+                    flex-direction: column;
+                    width: 90%;
+                    .mini-card {
+                        width: 60%;
+                        max-height: 30%;
+                        flex: 0 5 5em;
+                        margin-top: 2%;
+                        border-radius: 5%;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
+                p {
+                    font-size: 1em;
+                }   
+            }
+            
+            }
+        .studentsIMG {
+            display: none;
+            }
+        }
+    }
+}
+
+//  DOCENTES
+
+@media screen and 
+(min-width: 320px)
+and (max-width: 480px) {
+    #docentes {
+        width: 95%;
+        height: 110vh;
+        .section-titles {
+            h2 {
+                font-size: 2em;
+            }
+         }
+         .sectionContent {
+            .boxContent {
+                width: 90%;
+                margin-left: 0;
+                background-color: transparent;
+            .textAndButtons {
+                .flex-container {
+                    flex-direction: column;
+                    width: 90%;
+                    .mini-card-docentes {
+                        width: 90%;
+                        max-height: 30%;
+                        flex: 0 5 5em;
+                        margin-top: 1.25em;
+                        border-radius: 5%;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
+                p {
+                    font-size: 0.9em;
+                }   
+            }
+            
+            }
+        .teachersIMG {
+            display: none;
+            }
+        }
+    }
+}
+
+@media screen and 
+(min-width: 481px)
+and (max-width: 768px) {
+    #docentes {
+        width: 95%;
+        height: 110vh;
+        .section-titles {
+            h2 {
+                font-size: 2em;
+            }
+         }
+         .sectionContent {
+            .boxContent {
+                width: 90%;
+                margin-left: 0;
+                background-color: transparent;
+            .textAndButtons {
+                .flex-container {
+                    flex-direction: column;
+                    width: 90%;
+                    .mini-card-docentes {
+                        width: 60%;
+                        max-height: 30%;
+                        flex: 0 5 5em;
+                        margin-top: 2%;
+                        border-radius: 5%;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
+                p {
+                    font-size: 1em;
+                }   
+            }
+            
+            }
+        .teachersIMG {
+            display: none;
+            }
+        }
+    }
+}
+
+@media screen and 
+(min-width: 769px)
+and (max-width: 1024px) {
+    #docentes {
+        width: 95%;
+        height: 120vh;
+        .section-titles {
+            h2 {
+                font-size: 2em;
+            }
+         }
+         .sectionContent {
+            .boxContent {
+                width: 90%;
+                margin-left: 0;
+                background-color: transparent;
+            .textAndButtons {
+                .flex-container {
+                    flex-direction: column;
+                    width: 90%;
+                    .mini-card-docentes {
+                        width: 60%;
+                        max-height: 30%;
+                        flex: 0 5 5em;
+                        margin-top: 2%;
+                        border-radius: 5%;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
+                p {
+                    font-size: 1em;
+                }   
+            }
+            
+            }
+        .teachersIMG {
+            display: none;
+            }
+        }
+    }
+}
+
+//  CONTACTO
+
+@media screen and 
+(min-width: 320px)
+and (max-width: 480px) {
+    #contacto {
+        .section-titles {
+            h2 {
+                font-size: 2em;
+            }
+         }
+    }
+}
+
+//  FOOTER
+@media screen and 
+(min-width: 768px)
+and (max-width: 1023px) {
+    #footer {
+        .footerContent {
+            p {
+               font-size: 50%;
+            }
+            i {
+                font-size: 100%;
+            }
+        }
+    }
+}
+
+@media screen and 
+(min-width: 1024px)
+and (max-width: 1439px) {
+    #footer {
+        .footerContent {
+            p {
+               font-size: 80%;
+            }
+            i {
+                font-size: 130%;
+            }
+        }
+    }
+}
+
+
+
+// PAG EQUIPO
+
+@media screen and 
+(min-width: 320px)
+and (max-width: 480px) {
+    #encabezado-team {
+        margin-top: 4.063em;
+        .container-encabezado {
+            h1 {
+                font-size: 2em;
+            }
+        }
+    }
+    #docentes-materias {
+        .teachersContainerFlex {
+            display: flex;
+            flex-direction: column;
+            .subjectsFlex{
+                border: $colorTerciario solid;
+                border-radius: 20px;
+                width: 90%;
+                margin-left: 2.5%;
+                margin-right: 2.5%;
+                margin-bottom: 5%;
+            }
+        }
+   }   
+}
+
+@media screen and 
+(min-width: 481px)
+and (max-width: 767px) {
+    #encabezado-team {
+        margin-top: 4.063em;
+        .container-encabezado {
+            h1 {
+                font-size: 2em;
+            }
+        }
+    }
+    #docentes-materias {
+        .teachersContainerFlex {
+            display: flex;
+            flex-direction: column;
+            .subjectsFlex{
+                border: $colorTerciario solid;
+                border-radius: 20px;
+                width: 90%;
+                min-width: 15%;
+                margin-left: 2.5%;
+                margin-right: 2.5%;
+                margin-bottom: 5%;
+            }
+        }
+   }   
+}
+
+@media screen and 
+(min-width: 768px)
+and (max-width: 1023px) {
+    #encabezado-team {
+        margin-top: 4.063em;
+        .container-encabezado {
+            h1 {
+                font-size: 2em;
+            }
+        }
+    }
+    #docentes-materias {
+        .teachersContainerFlex {
+            display: flex;
+            flex-direction: column;
+            .subjectsFlex{
+                border: $colorTerciario solid;
+                border-radius: 20px;
+                width: 90%;
+                min-width: 15%;
+                margin-left: 2.5%;
+                margin-right: 2.5%;
+                margin-bottom: 5%;
+            }
+        }
+   }   
+}
+
+@media screen and 
+(min-width: 1024px)
+and (max-width: 1439px) {
+    #encabezado-team {
+        margin-top: 4.063em;
+        .container-encabezado {
+            h1 {
+                font-size: 2em;
+            }
+        }
+    }
+    #docentes-materias {
+        .teachersContainerFlex {
+            display: flex;
+            flex-direction: column;
+            .subjectsFlex{
+                border: $colorTerciario solid;
+                border-radius: 20px;
+                width: 90%;
+                min-width: 15%;
+                margin-left: 2.5%;
+                margin-right: 2.5%;
+                margin-bottom: 5%;
+            }
+        }
+   }   
+}
+
+@media screen and 
+(min-width: 1440px) {
+    #encabezado-team {
+        margin-top: 4.063em;
+    }
+
+}
+
+
+
+
+
+
